@@ -1,0 +1,49 @@
+main:
+	scenes:
+	scripts:
+        game_manager.gd:file
+	ui:
+
+actors:
+	player:
+	enemies:
+	npcs:
+
+world:
+	levels:
+	props:
+	environment:
+
+systems:
+	input:
+	combat:
+	inventory:
+	save_load:
+
+ui:
+	menus:
+	hud:
+	themes:
+
+autoload:
+    globals.gd:file
+    constants.gd:file
+
+assets:
+	textures:
+	sprites:
+	audio:
+		music:
+		sfx:
+	fonts:
+	shaders:
+
+resources:
+
+addons:
+
+tests:
+
+docs:
+    README.md:file
+    CHANGELOG.md:file
